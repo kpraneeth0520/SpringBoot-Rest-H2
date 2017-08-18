@@ -49,6 +49,7 @@ public class CompanyStockServiceImpl implements CompanyStockService{
     @Override
     public String deleteCompanyStock(String companyId) {
          companyRepository.delete(companyId);
+        fileWriterService.fileWriter();
         return "Successfully deleted";
     }
 
