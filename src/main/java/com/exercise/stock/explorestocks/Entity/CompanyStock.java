@@ -25,6 +25,8 @@ public class CompanyStock implements Serializable {
     @Column
     private String companyName;
     @Column
+    private String companyLink;
+    @Column
     private String ceoName;
     @LazyCollection(LazyCollectionOption.FALSE)
     @OneToMany(cascade = CascadeType.ALL)
@@ -39,14 +41,6 @@ public class CompanyStock implements Serializable {
             return stockData;
         }
 
-    }
-
-    public CompanyStock(){}
-
-    public CompanyStock(String companyCode, String companyName, String ceoName){
-        this.companyCode = companyCode;
-        this.companyName = companyName;
-        this.ceoName = ceoName;
     }
 
 
