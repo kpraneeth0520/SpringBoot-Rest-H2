@@ -2,17 +2,17 @@
 
 Dependencies:
 
--> Spring Boot
+- Spring Boot
 
--> Spring Data
+- Spring Data
 
--> H2 in-memory database
+- H2 in-memory database
 
--> Spring AOP
+- Spring AOP
 
--> Spring Web
+- Spring Web
 
--> Lombok
+- Lombok
 
 Rest URLs:
 
