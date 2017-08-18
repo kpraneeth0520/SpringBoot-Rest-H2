@@ -1,1 +1,36 @@
-[{"id":"4f2edea6-aff9-446e-a11e-484f6e4c5518","companyCode":"GD","companyName":"Gord3","ceoName":"Gazil3","stockData":[{"stockID":"40123","ticker":"f","quoteType":"lsd","price":"$30.56","size":300,"timeStamp":"2017-08-16 21:21:37"}]},{"id":"775c96c6-e2d5-4e9d-b214-e793c3621ab0","companyCode":"GOO2","companyName":"Google1","ceoName":"Satya Nadella","stockData":[{"stockID":"0111121","ticker":"G1","quoteType":"msd","price":"$50.56","size":500,"timeStamp":"2017-08-16 21:29:37"}]}]
+[
+  {
+    "id": "4f2edea6-aff9-446e-a11e-484f6e4c5518",
+    "companyCode": "GD",
+    "companyName": "Google",
+    "companyLink": "http://www.google.com",
+    "ceoName": "Sundar Pichaiya",
+    "stockData": [
+      {
+        "stockID": "40123",
+        "ticker": "http://ticker.com/google",
+        "quoteType": "lsd",
+        "price": "$30.56",
+        "size": 300,
+        "timeStamp": "2017-08-18 21:21:37"
+      }
+    ]
+  },
+  {
+    "id": "775c96c6-e2d5-4e9d-b214-e793c3621ab0",
+    "companyCode": "FB",
+    "companyName": "Facebook",
+    "companyLink": "http://www.facebook.com",
+    "ceoName": "Mark Zukerberg",
+    "stockData": [
+      {
+        "stockID": "01121",
+        "ticker": "http://ticker.com/facebook",
+        "quoteType": "msd",
+        "price": "$50.56",
+        "size": 500,
+        "timeStamp": "2017-08-18 21:29:37"
+      }
+    ]
+  }
+]
